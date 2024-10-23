@@ -75,6 +75,16 @@ p{
   margin: 0 150px;
 }
 
+.footer{
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  text-align: center;
+}
+
 @keyframes slide{
   from{
     transform: translateX(0)
