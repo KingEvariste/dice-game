@@ -99,7 +99,7 @@ const slowdown = () => {
   if(cooldown >= 1000){
     clearInterval(newId);
   }
-  cooldown += 50;
+  cooldown += 15;
 }
 
 var jingleId = setTimeout(jingleBells,cooldown);
